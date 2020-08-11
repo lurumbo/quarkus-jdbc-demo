@@ -16,8 +16,7 @@ public class UserResource {
 
     @GET
     public List<User> list () {
-       List<User> users = User.listAll();
-       return users;
+        return User.listAll();
     }
 
 }
